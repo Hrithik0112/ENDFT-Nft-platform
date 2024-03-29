@@ -1,10 +1,9 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <main className="text-4xl font-normal text-center">
-      Welcome To reality
-      <p className="font-clash font-medium">hello World</p>
-      <p className="font-clash font-semibold">hello World</p>
-      <p className="font-clash font-bold">hello World</p>
+    <main className="px-20 bg-[#141944] pt-10">
+      <Hero />
     </main>
   );
 }
