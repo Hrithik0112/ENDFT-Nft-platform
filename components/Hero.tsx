@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-full min-h-screen flex text-white">
+    <div className="w-full min-h-screen flex items-center text-white">
       {/* leftside */}
       <div className="flex flex-col space-y-10 ">
         {/* Main Moto */}
@@ -61,16 +61,16 @@ function Hero() {
       </div>
       {/* rightside */}
       <div className="relative">
-        <div className="w-[300px] h-[180px] rounded-[20px] backdrop-blur-[100px] -skew-x-[10deg] drop-shadow-xl border absolute top-[110px] left-[260px] bg-white opacity-5 z-10 "></div>
+        <div className="w-[300px] h-[180px] rounded-[20px] backdrop-blur-[100px] -skew-x-[10deg] drop-shadow-xl border absolute -top-[160px] left-[260px] bg-white opacity-5 z-10 "></div>
         <div className="w-[300px] h-[400px] rounded-[20px] backdrop-blur-[100px] -skew-x-[10deg] drop-shadow-xl border absolute bottom-[130px] left-[300px] bg-white opacity-5 z-20"></div>
         <div className="relative w-[400px] h-[423px] drop-shadow-xl">
           <img
             src="/nftImg.png"
             alt="nftimage"
-            className="object-cover absolute top-36 left-[240px] "
+            className="object-cover absolute -top-36 left-[240px] "
           />
         </div>
-        <div className="w-fit flex flex-col justify-around text-white font-clash  py-2 px-7 rounded-[20px] -skew-x-[10deg] bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg absolute -right-[240px] top-32">
+        <div className="w-fit flex flex-col justify-around text-white font-clash  py-2 px-7 rounded-[20px] -skew-x-[10deg] bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg absolute -right-[240px] -top-36">
           <p className="font-bold text-xl">BID NOW!</p>
           <p className="font-medium text-xs">Latest Collection</p>
         </div>
