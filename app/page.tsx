@@ -1,3 +1,4 @@
+import CreateAndSell from "@/components/CreateAndSell";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import TopColllection from "@/components/TopColllection";
@@ -12,6 +13,7 @@ export default function Home() {
       <Wallet />
       <Trending />
       <TopColllection/>
+      <CreateAndSell/>
     </main>
   );
 }
