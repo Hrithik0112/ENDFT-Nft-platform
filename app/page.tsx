@@ -1,3 +1,4 @@
+import Articles from "@/components/Articles";
 import CreateAndSell from "@/components/CreateAndSell";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <Trending />
       <TopColllection/>
       <CreateAndSell/>
+      <Articles/>
     </main>
   );
 }
