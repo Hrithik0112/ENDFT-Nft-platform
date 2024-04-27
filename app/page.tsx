@@ -2,6 +2,7 @@ import Articles from "@/components/Articles";
 import CreateAndSell from "@/components/CreateAndSell";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import TopCategories from "@/components/TopCategories";
 import TopColllection from "@/components/TopColllection";
 import Trending from "@/components/Trending";
 import Wallet from "@/components/Wallet";
@@ -16,6 +17,7 @@ export default function Home() {
       <TopColllection/>
       <CreateAndSell/>
       <Articles/>
+      <TopCategories/>
     </main>
   );
 }
