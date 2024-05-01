@@ -1,5 +1,6 @@
 import Articles from "@/components/Articles";
 import CreateAndSell from "@/components/CreateAndSell";
+import Footer from "@/components/Footer";
 import GetMoreUpdate from "@/components/GetMoreUpdate";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -20,6 +21,7 @@ export default function Home() {
       <Articles/>
       <TopCategories/>
       <GetMoreUpdate/>
+      <Footer/>
     </main>
   );
 }
