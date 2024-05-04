@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
 
 const GetMoreUpdate = () => {
   return (
-    <div className='flex flex-col gap-6 text-white'>
+    <div className=' flex flex-col justify-center bg-[#0E1135] py-24 mt-20'>
+
+    <div className='flex flex-col gap-6 text-white items-center justify-center'>
         <p className='text-[48px] font-clash font-semibold'>Get More Updates</p>
         <p className='font-normal text-xl'>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks</p>
         <div className='w-[865px] h-[71px] rounded-[116px] bg-[#d9d9d9] flex justify-end items-center relative'>
@@ -11,6 +14,8 @@ const GetMoreUpdate = () => {
                 I'm in
             </button>
         </div>
+    </div>
+    <Footer/>
     </div>
   )
 }

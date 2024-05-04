@@ -21,7 +21,7 @@ export default function Home() {
       <Articles/>
       <TopCategories/>
       <GetMoreUpdate/>
-      <Footer/>
+      
     </main>
   );
 }

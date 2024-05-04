@@ -4,22 +4,22 @@ import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex justify-around">
+    <div className="flex justify-around mt-40">
       {/* data */}
       <div className="flex flex-col">
         {/* logo */}
         <div className="flex">
-          <Image src="/Group 8.png" alt="logo" width={48} height={48} />
+          <Image src="/Group 8.png" alt="logo" width={40} height={40} />
           <p className="font-semibold text-4xl text-white">ENDFT</p>
         </div>
         {/* Paragrapg */}
-        <div>
+        <div className="mt-5">
             <p className="font-normal text-xl text-white">
             the leading NFT Marketplace on Ethereum <br/> Home to the next generation of digital creators. <br/>Discover the best NFT collections.
             </p>
         </div>
         {/* logo list */}
-        <div className="flex gap-4 mt-4">
+        <div className="flex gap-4 mt-6">
         <FaDiscord className="w-8 h-8 text-gray-400"/>
         <FaTwitter className="w-8 h-8 text-gray-400"/>
         <FaInstagram className="w-8 h-8 text-gray-400"/>
