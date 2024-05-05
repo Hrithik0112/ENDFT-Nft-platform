@@ -17,9 +17,9 @@ export default function Home() {
       <Wallet />
       <Trending />
       <TopColllection/>
+      <TopCategories/>
       <CreateAndSell/>
       <Articles/>
-      <TopCategories/>
       <GetMoreUpdate/>
       
     </main>
