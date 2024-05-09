@@ -17,6 +17,10 @@ const GetMoreUpdate = () => {
         </div>
     </div>
     <Footer/>
+    <div className="flex mt-20 text-center font-clash text-5xl font-bold justify-center items-center text-white">
+      Made With ❤️ by &nbsp; <Link href="https://hrithik-portfolio-one.vercel.app/">Hrithik</Link>
+
+    </div>
     
     </div>
   )
